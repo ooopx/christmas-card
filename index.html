@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,19 +8,20 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<nav class="navbar bg-body-tertiary">
-	  <div class="container-fluid">
-	    <a class="navbar-brand" href="https://github.com/ooopx/">@ooopx</a>
-	  </div>
-	</nav>
 
-	<main class="container row">
-		<div class="col">
-			<h2>Card</h2>
-			<canvas class="border bg-white" id="cardCanvas" width="500" height="500"></canvas>
+	<header class="text-white text-center p-3">
+		<h1>
+			<a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://github.com/ooopx/">@ooopx</a>
+		</h1>
+	</header>
+
+	<main class="text-white ">
+		<div class="border p-3 m-3">
+			<h1>Card</h1>
+			<canvas class="border bg-white" id="cardCanvas"></canvas>
 		</div>
-		<div class="col">
-			<h2>Stickers</h2>
+		<div class="border p-3 m-3">
+			<h1>Stickers</h1>
 			<div class="stickersGrid">
 				<details open>
 					<summary>Trees</summary>
@@ -37,9 +38,6 @@
 			</div>
 		</div>
 	</main>
-
-
-
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
